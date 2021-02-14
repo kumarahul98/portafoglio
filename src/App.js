@@ -25,7 +25,7 @@ function App() {
         <a href="https://www.instagram.com/kumarahul98/">
           <AiOutlineInstagram id="intagram" className="icon" />
         </a>
-        <a href="https://wa.me/7019046050">
+        <a href="https://wa.me/+917019046050">
           <AiOutlineWhatsApp id="whatsApp" className="icon" />
         </a></div>
       </header>
