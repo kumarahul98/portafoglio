@@ -1,38 +1,57 @@
-.App {
+body {
+  background-color: aliceblue;
+}
+h2 {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
   display: flex;
-  flex-direction: column;
+  background-color: aliceblue;
+  height: 4rem;
+  width: 4rem;
+  margin: 0 1rem;
+  border-radius: 0.3rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0.3rem 0.3rem 0.6rem -0.1rem rgba(0, 0, 0, 15),
+    -0.3rem -0.3rem 0.6rem -0.1rem rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+a:hover {
+  box-shadow: inset 0.1rem 0.1rem 0.6rem -0.1rem rgba(0, 0, 0, 15),
+    inset -0.1rem -0.1rem 0.6rem -0.1rem rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+  transform: translateY(2px);
+  transform: scale(0.95);
+}
+#twitter:hover {
+  color: #55acee;
+}
+#linkedIn:hover {
+  color: #0e76a8;
+}
+#gitHub:hover {
+  color: #211f1f;
+}
+#intagram:hover {
+  color: #4c68d7;
+}
+#whatsApp:hover {
+  color: #25d366;
 }
 
-.App-link {
-  color: #61dafb;
+#work {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sc {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  font-size: 2rem;
+  color: #777777;
+  transition: transform 0.5s;
 }
