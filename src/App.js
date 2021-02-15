@@ -10,22 +10,22 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<img src={work} id="work" className="App-logo" alt="logo" />
+				<img src={work} id="work" className="App-logo" alt="Work In Progress" />
 				<h2>Meanwhile reach me out at: </h2>
 				<div className="sc">
-					<a href="https://twitter.com/kuma_r_ahul">
+					<a aria-label="Twitter" href="https://twitter.com/kuma_r_ahul">
 						<AiOutlineTwitter id="twitter" className="icon" />
 					</a>
-					<a href="https://www.linkedin.com/in/kumarahul98/">
+					<a aria-label="linkedIn" href="https://www.linkedin.com/in/kumarahul98/">
 						<FaLinkedinIn id="linkedIn" className="icon" />
 					</a>
-					<a href="https://github.com/kumarahul98">
+					<a aria-label="Github" href="https://github.com/kumarahul98">
 						<RiGithubLine id="gitHub" className="icon" />
 					</a>
-					<a href="https://www.instagram.com/kumarahul98/">
+					<a aria-label="Instagram" href="https://www.instagram.com/kumarahul98/">
 						<AiOutlineInstagram id="intagram" className="icon" />
 					</a>
-					<a href="https://wa.me/+917019046050">
+					<a aria-label="WhatsApp" href="https://wa.me/+917019046050">
 						<AiOutlineWhatsApp id="whatsApp" className="icon" />
 					</a>
 				</div>
